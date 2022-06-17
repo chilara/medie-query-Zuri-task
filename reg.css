@@ -1,0 +1,115 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+.parent-container{
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px 30px 30px;
+    width: 65%;
+
+
+
+}
+
+
+
+.learn{
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+
+.see{
+    line-height: 18px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+
+.first-container{
+    padding: 10% 13% 10% 13%;
+    
+}
+
+
+
+.second-container{
+    margin-right: 25%;
+    text-align: center;
+}
+
+
+
+
+
+
+ .white-container{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 50px;
+    width: 180%;
+
+
+
+
+}
+
+
+
+
+
+.blue-container{
+    background-color: hsl(248, 32%, 49%);
+    width: 100%;
+    border-radius: 10px;
+    color: #ffffff;
+    /* padding: 10%; */
+}
+
+
+
+
+.name{
+    border-radius: 5px;
+    border-color: #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #1e1e1e;
+    padding: 7px;
+    width: 100%;
+}
+
+
+.button{
+    background-color: hsl(154, 59%, 51%);
+    color: #ffffff;
+    padding: 11px;
+    width: 100%;
+    border-style: none;
+    border-color: #ffffff;
+    border-radius: 5px;
+    font-size: smaller;
+}
+
+
+
+.by{
+    color: hsl(246, 25%, 77%);
+    font-size: x-small;
+    font-weight: 400;
+}
+
+
+   
+
+
+
+  
