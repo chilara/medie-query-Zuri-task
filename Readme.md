@@ -1,0 +1,1 @@
+This is a Zuri task on Responsiveness and media query. 
