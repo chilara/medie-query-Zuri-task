@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reg page</title>
+    <link rel="stylesheet" href="./reg.css" />
+    <script src="./js/index.js"></script>
+  </head>
+  <body>
+    <div class="parent-container">
+      <div class="first-container">
+        <h1 class="learn"><strong>Learn to code by watching others</strong></h1>
+        <h6 class="see">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </h6>
+      </div>
+      <div class="second-container">
+        <div class="blue-container">
+          <h6 class="try-it">
+            <strong class="try">Try it free 7days</strong>
+            <strong class="then">then $20/mo. thereafter</strong>
+          </h6>
+        </div>
+        <form class="white-container">
+          <div class="name">
+            <img class="fname-img-error" src="./img/icon-error.svg" />
+            <input type="text" class="first" placeholder="First Name" />
+          </div>
+          <small class="error fnameError"></small>
+
+          <div class="name">
+            <img class="lname-img-error" src="./img/icon-error.svg" />
+            <input type="text" class="last" placeholder="Last Name" />
+          </div>
+          <small class="error lnameError"></small>
+
+          <div class="name">
+            <img class="email-img-error" src="./img/icon-error.svg" />
+            <input type="email" class="email" placeholder="Email Address" />
+          </div>
+          <small class="error emailError"></small>
+
+          <div class="name">
+            <img class="pword-img-error" src="./img/icon-error.svg" />
+            <input type="password" class="pword" placeholder="Password" />
+          </div>
+          <small class="error pwordError"></small>
+
+          <div onclick="onSubmit()" class="button">CLAIM YOUR FREE TRIAL</div>
+          <h6 class="by">
+            By clicking the button you are agreeing to our
+            <stong style="color: hsl(0, 100%, 74%)">Terms and Services</stong>
+          </h6>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
