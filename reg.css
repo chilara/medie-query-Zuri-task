@@ -144,3 +144,145 @@ body{
 
 
   
+/* MEDIA QUERY*/
+
+
+@media screen and (max-width: 375px) {
+
+
+    .parent-container{
+        background-color: hsl(0, 100%, 74%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40%;
+        width: 100%;
+        background-image: url(https://raw.githubusercontent.com/chilara/medie-query-Zuri-task/gh-pages/img/bg-intro-mobile.png);
+    
+    
+    
+    }
+
+
+
+    .first-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 40%;
+        margin-top: 8%;
+    
+    
+        
+        
+    }
+
+   
+    
+    
+    
+    
+    
+    
+     .white-container{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 50px;
+        width: 180%;
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    .blue-container{
+        background-color: hsl(248, 32%, 49%);
+        width: 126%;
+        border-radius: 10px;
+        color: #ffffff;
+        padding: 0.1px;  
+        margin-bottom: 10%;
+        margin-left: 20%;
+    }
+
+
+
+    .learn{
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 30px;
+    
+    }
+    
+    
+    
+    .see{
+        line-height: 25px;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 16px;
+        text-align: center;
+    }
+    
+
+
+    
+.try-it{
+    font-size: small;
+    text-align: center;
+    
+}
+
+
+.white-container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+   background-color: #ffffff;
+   border-radius: 10px;
+   padding: 25px;
+   width: 130%;
+   margin-left: 14px;
+
+
+
+}
+
+
+.name{
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #1e1e1e;
+    padding: 18px;
+    width: 90%;
+}
+
+
+.button{
+    background-color: hsl(154, 59%, 51%);
+    color: #ffffff;
+    padding: 20px;
+    width: 103%;
+    border-style: none;
+    border-color: #ffffff;
+    border-radius: 5px;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+
+
+
+
+    
+}
